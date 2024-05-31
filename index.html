@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Game with AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="controls">
+        <label for="aiLevel">Select AI Level:</label>
+        <select id="aiLevel">
+            <option value="5">Beginner (Depth 5)</option>
+            <option value="10">Intermediate (Depth 10)</option>
+            <option value="15" selected>Advanced (Depth 15)</option>
+            <option value="20">Expert (Depth 20)</option>
+        </select>
+    </div>
+    <div id="chessBoard"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.13.4/chess.min.js"></script> <!-- Include chess.js from CDN -->
+    <script src="chessboard-1.0.0.min.js"></script> <!-- Include chessboard.js library -->
+    <script src="script.js"></script>
+</body>
+</html>
